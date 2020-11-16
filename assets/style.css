@@ -31,3 +31,24 @@ footer p {
     text-decoration: none;
     font-family: fantasy;
 }
+
+.pTag1 {
+    text-align: left;
+    font-size: 100px;
+}
+
+.pTag2 {
+    text-align: center;
+    font-size: 100px;
+    color: green;
+}
+
+.pTag3 {
+    text-align: left;
+    font-size: 100px;
+    color: black;
+}
+
+.demetri:hover {
+    color: green;
+}

@@ -1,0 +1,33 @@
+footer {
+    font-style: italic;
+    height: 40px;
+}
+
+i:hover {
+    color: green;
+}
+
+footer i {
+    margin: 5px;
+    font-size: 30px;
+}
+
+footer p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.centerPortfolio {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.rows {
+    margin-bottom: 50px;
+}
+
+.rows a:hover {
+    color: green;
+    text-decoration: none;
+    font-family: fantasy;
+}

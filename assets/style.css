@@ -1,3 +1,8 @@
+.bgImg {
+    background-image: url("https://s-media-cache-ak0.pinimg.com/originals/e4/ab/66/e4ab6681febc449cff5d9ad492f5fdd3.jpg");
+    background-size: 100% 100%;
+}
+
 footer {
     font-style: italic;
     height: 40px;
@@ -19,11 +24,13 @@ footer p {
 
 .centerPortfolio {
     text-align: center;
-    margin-bottom: 100px;
+
+    padding: 20px;
 }
 
 .rows {
     margin-bottom: 50px;
+    float: inline-start;
 }
 
 .rows a:hover {
@@ -51,4 +58,20 @@ footer p {
 
 .demetri:hover {
     color: green;
+}
+
+div.container {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+div.jumbotron {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.image {
+    opacity: 0.6;
+}
+
+.image:hover {
+    opacity: 1.0;
 }

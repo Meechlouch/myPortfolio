@@ -4,9 +4,115 @@
     background-repeat: no-repeat;
 }
 
+div.container-fluid {
+    background: rgba(0, 0, 0, 0.7);
+    height: 770px;
+}
+
+#current {
+    color: green
+}
+
+.blankRow {
+    height: 130px;
+}
+
+.pTag1 {
+    text-align: center;
+}
+
 .demetri {
     font-size: 72px;
-    background: -webkit-linear-gradient(#04e762, black, gold);
+    background: -webkit-radial-gradient(gold, green, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.circle {
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    border: 3px solid green;
+    color: gold;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.photo a {
+    font-size: 40px;
+}
+
+.photo a:hover {
+    background: -webkit-linear-gradient(green, gold, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+div.container {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+div.jumbotron {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+
+.centerPortfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+.image {
+    opacity: 0.6;
+}
+
+.image:hover {
+    opacity: 1.0;
+}
+
+
+.anemoi {
+    margin-bottom: 75px;
+}
+
+.anemoi a:hover {
+    color: gold;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.weatherDashboard {
+    margin-bottom: 75px;
+}
+
+.weatherDashboard a:hover {
+    color: gold;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+.dayPlanner {
+    margin-bottom: 30px;
+}
+
+.dayPlanner a:hover {
+    color: gold;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
+i {
+    margin: 15px;
+    font-size: 60px;
+    float: inline-start;
+}
+
+i:hover {
+    background: -webkit-linear-gradient(green, gold, black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -22,81 +128,8 @@
 
 #footer p {
     text-align: center;
-    color: #04e762;
-}
-
-i:hover {
+    font-size: 17px;
     color: green;
-}
-
-i {
-    margin: 15px;
-    font-size: 60px;
-    float: inline-start;
-}
-
-.centerPortfolio {
-    text-align: center;
-    padding: 20px;
-}
-
-.blankRow {
-    height: 130px;
-}
-
-.rows {
-    margin-bottom: 60px;
-    float: inline-start;
-}
-
-.rows a:hover {
-    color: green;
-    text-decoration: none;
-    font-family: fantasy;
-}
-
-.pTag1 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 70px;
-    color: white;
-}
-
-.circle {
-    width: 60px;
-    line-height: 60px;
-    border-radius: 50%;
-    text-align: center;
-    font-size: 16px;
-    border: 3px solid green;
-    color: gold;
-    background-color: black;
-    margin-bottom: 10px;
-}
-
-div.container-fluid {
-    background: rgba(0, 0, 0, 0.7);
-    height: 770px;
-}
-
-div.container {
-    background: rgba(0, 0, 0, 0.7);
-}
-
-div.jumbotron {
-    background: rgba(0, 0, 0, 0.6);
-}
-
-.image {
-    opacity: 0.6;
-}
-
-.image:hover {
-    opacity: 1.0;
-}
-
-#current {
-    color: #04e762
 }
 
 /* MEDIA QUERIES */

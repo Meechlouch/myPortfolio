@@ -41,7 +41,7 @@ div.container-fluid {
 }
 
 .photo a {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .photo a:hover {
@@ -79,6 +79,10 @@ div.jumbotron {
     margin-bottom: 75px;
 }
 
+.anemoi a {
+    font-size: 25px;
+}
+
 .anemoi a:hover {
     color: gold;
     text-decoration: none;
@@ -86,7 +90,11 @@ div.jumbotron {
 }
 
 .weatherDashboard {
-    margin-bottom: 75px;
+    margin-bottom: 125px;
+}
+
+.weatherDashboard a {
+    font-size: 25px;
 }
 
 .weatherDashboard a:hover {
@@ -96,7 +104,11 @@ div.jumbotron {
 }
 
 .dayPlanner {
-    margin-bottom: 30px;
+    margin-bottom: 75px;
+}
+
+.dayPlanner a {
+    font-size: 25px;
 }
 
 .dayPlanner a:hover {

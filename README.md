@@ -9,6 +9,10 @@ A Responsive Portfolio where you can find my contact information and most recent
 
 ![Desktopview](images/Screenshot%20(35).png)
 
+## Technologies Used
+
+HTML, CSS, BOOTSTRAP 
+
 ## License
 
 MIT License

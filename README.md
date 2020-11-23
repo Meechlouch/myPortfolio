@@ -13,7 +13,7 @@ A Responsive Portfolio where you can find my contact information and most recent
 
 MIT License
 
-Copyright (c) [2020] [Demetri Dillard]
+Copyright (c) 2020, Demetri Dillard
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

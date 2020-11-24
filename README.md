@@ -7,7 +7,7 @@ A Responsive Portfolio where you can find my contact information and most recent
 
 ## Gallery
 
-![Desktopview](images/Screenshot%20(35).png)
+![Desktopview](images/portfolioCover.png)
 
 ## Technologies Used
 

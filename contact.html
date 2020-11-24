@@ -4,7 +4,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="assets/reset.css">
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -15,27 +14,28 @@
 </head>
 
 <body style="background-color: black;">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
-    <a class="navbar-brand" href="index.html">Demetri Dillard</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link text-light" href="about.html">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html" id="current">Contact Me</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark " id="navbar">
+      <a class="navbar-brand" href="index.html">Demetri Dillard</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-light" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html" id="current">Contact Me</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   <div class="container cont" style="margin-bottom: 122px;">
     <section>
       <div class="jumbotron text-light text-center" style="background-color: black;">
@@ -53,7 +53,7 @@
               class="form-control"><br>
             <label class="text-light">Message:</label><br>
             <textarea type="text" class="form-control"></textarea><br>
-            <a href="mailto:meechlouch@gmail.com">
+            <a href="mailto:meechlouch@gmail.com" target="blank">
               <button type="Submit" class="btn btn-dark" style="color: gold;">Submit</button>
             </a>
           </form>
@@ -71,8 +71,14 @@
             </a>
           </div>
           <div>
-            <a href="mailto:meechlouch@gmail.com">
+            <a href="mailto:meechlouch@gmail.com" target="blank">
               <i class="far fa-envelope"></i>
+            </a>
+          </div>
+          <div>
+            <a href="https://docs.google.com/document/d/1rSf5O3iuRO8AXg-wnUpG7lyEnhbVu02dLLBVW5h9ZgQ/edit"
+              target="blank">
+              <i class="far fa-file-alt"></i>
             </a>
           </div>
         </div>
@@ -99,7 +105,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
   </script>
-  <script src="./assets/script.js"></script>
 </body>
 
 </html>

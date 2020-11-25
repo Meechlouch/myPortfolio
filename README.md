@@ -5,9 +5,17 @@ Hit this [link](https://meechlouch.github.io/myPortfolio/index.html) for the dep
 ## Description
 A Responsive Portfolio where you can find my contact information and most recent and updated applications. My Portforlio is mobile fluid, so you easily can read it on any size screen.
 
-## Gallery
+## Desktop View
 
 ![Desktopview](images/portfolioCover.png)
+![Desktopview](images/portfolioAbout.png)
+![Desktopview](images/portfolioProjects.png)
+![Desktopview](images/portfolioContact.png)
+
+## Mobile View
+
+![Mobileview](images/portfolioCoverMobile.png)
+![Mobileview](images/portfolioContactMobile.png)
 
 ## Technologies Used
 

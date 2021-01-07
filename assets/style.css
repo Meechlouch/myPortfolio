@@ -132,6 +132,20 @@ div.jumbotron {
     font-family: fantasy;
 }
 
+.dayPlanner {
+    margin-bottom: 75px;
+}
+
+.dayPlanner a {
+    font-size: 25px;
+}
+
+.dayPlanner a:hover {
+    color: gold;
+    text-decoration: none;
+    font-family: fantasy;
+}
+
 .weatherDashboard {
     margin-bottom: 75px;
 }
@@ -146,23 +160,23 @@ div.jumbotron {
     font-family: fantasy;
 }
 
-.logo {
-    width: 2.9rem;
-    height: 2.9rem;
-}
-
-.dayPlanner {
+.burgers {
     margin-bottom: 75px;
 }
 
-.dayPlanner a {
+.burgers a {
     font-size: 25px;
 }
 
-.dayPlanner a:hover {
+.burgers a:hover {
     color: gold;
     text-decoration: none;
     font-family: fantasy;
+}
+
+.logo {
+    width: 2.9rem;
+    height: 2.9rem;
 }
 
 i {

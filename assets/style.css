@@ -35,7 +35,7 @@ div.container-fluid {
 }
 
 .blankRow {
-    height: 130px;
+    height: 50px;
 }
 
 .pTag1 {
@@ -50,11 +50,12 @@ div.container-fluid {
 }
 
 .circle {
-    width: 60px;
-    line-height: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 85px;
+    line-height: 85px;
     border-radius: 50%;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     border: 3px solid green;
     color: gold;
     background-color: black;
@@ -117,58 +118,15 @@ div.jumbotron {
     opacity: 1.0;
 }
 
-
-.anemoi {
+.projects {
     margin-bottom: 75px;
 }
 
-.anemoi a {
+.projects a {
     font-size: 25px;
 }
 
-.anemoi a:hover {
-    color: gold;
-    text-decoration: none;
-    font-family: fantasy;
-}
-
-.dayPlanner {
-    margin-bottom: 75px;
-}
-
-.dayPlanner a {
-    font-size: 25px;
-}
-
-.dayPlanner a:hover {
-    color: gold;
-    text-decoration: none;
-    font-family: fantasy;
-}
-
-.weatherDashboard {
-    margin-bottom: 75px;
-}
-
-.weatherDashboard a {
-    font-size: 25px;
-}
-
-.weatherDashboard a:hover {
-    color: gold;
-    text-decoration: none;
-    font-family: fantasy;
-}
-
-.burgers {
-    margin-bottom: 75px;
-}
-
-.burgers a {
-    font-size: 25px;
-}
-
-.burgers a:hover {
+.projects a:hover {
     color: gold;
     text-decoration: none;
     font-family: fantasy;
